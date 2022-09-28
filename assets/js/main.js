@@ -130,11 +130,9 @@
    * Mobile nav toggle
    */
 
-
   let menu = document.querySelector('.bi-list');
   // OPEN
   menu.addEventListener('click', function () {
-    console.log(1);
     if (selectHeader.classList.contains('hide-sidebar')) {
       selectHeader.classList.remove('hide-sidebar');
       selectHeader.classList.add('show-sidebar');
@@ -142,27 +140,6 @@
       selectHeader.classList.toggle('show-sidebar');
     }
   });
-  // menu.addEventListener('click', function () {
-  //   console.log(1);
-  //   if (selectHeader.classList.contains('hide-sidebar')) {
-  //     selectHeader.classList.remove('hide-sidebar');
-  //     selectHeader.classList.add('show-sidebar');
-  //   } else {
-  //     selectHeader.classList.toggle('show-sidebar');
-  //   }
-  // });
-//   CLOSE
-//   let close = document.querySelector('.bi-x');
-//   close.addEventListener('click', function(){
-//     console.log('talha');
-//     if(selectHeader.classList.contains('show-sidebar')){
-//         selectHeader.classList.remove('show-sidebar');
-//         selectHeader.classList.add('hide-sidebar');
-// } else{
-//     selectHeader.classList.toggle('hide-sidebar');
-// }
-// });
-
 
     on('click', '.mobile-nav-toggle', function(e) {
       select('body').classList.toggle('mobile-nav-active')

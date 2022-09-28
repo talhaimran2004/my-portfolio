@@ -65,14 +65,6 @@ h6 {
   padding: 0 0 0 430px;
   background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 9997;
-  transition: all 0.5s;
-  padding: 15px;
-  overflow-y: auto; */
 }
 
 @media (max-width: 992px) {
@@ -326,6 +318,25 @@ h6 {
     /* background: url("../img/bg.jpg")  ; */
   }
 }
+@media (max-width: 415px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #hero {
+    background-size: cover;
+    background-position: -350px 0;
+    /* background: url("../img/bg.jpg")  ;  */
+    /* display: none; */
+  }
+}
 
 /* --------------------------------------------------------------
 # Sections General
@@ -376,7 +387,7 @@ section {
   height: 3px;
   background: #ff0000;
   bottom: -5px;
-  left: 532px;
+  left: 165px;
 }
 
 .section-title p {
@@ -565,11 +576,6 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.service-bx {
-  height: 260.19px;
-  width: 261px;
-}
-
 .services .icon-box {
   padding: 20px 15px;
   position: relative;
@@ -651,6 +657,11 @@ section {
     bottom: 60%;
   }
 }
+/* @media (max-width: 415px) {
+  .services-main {
+    margin: 0 50px;
+  }
+} */
 
 /*TESTIMONIALS*/
 #testimonials .section-title h2::after {
@@ -765,7 +776,7 @@ section {
   background: #888;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .carousel {
     width: 500px;
     margin: 0 auto;
@@ -777,6 +788,12 @@ section {
   }
   .carousel-control-next {
     right: 60px;
+  }
+  
+} */
+@media (max-width: 415px) {
+  .carousel {
+    width: 78%;
   }
   
 }
