@@ -5,7 +5,7 @@ Portfolio website with a simple & classic design
 
 ## Tech Stack
 
-HTML, CSS, Bootstrap, Javascript
+HTML, Bootstrap, Javascript
 
 
 
